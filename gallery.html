@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jay Durga Caterers event gallery — weddings, traditional functions, live counters, catering setups, and premium pure-veg presentations in Kolhapur.">
+    <meta name="keywords"
+        content="Jay Durga Caterers gallery, wedding catering photos Kolhapur, catering event gallery, Maharashtrian catering">
+    <meta name="author" content="Jay Durga Caterers">
+    <title>Event Gallery | Jay Durga Caterers — Premium Veg Catering Kolhapur</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="gallery-page">
+
+    
+
+    <nav class="header-nav scrolled" id="mainNavbar">
+        <div class="container nav-flex">
+            <a href="index.html#home" class="brand">
+                <span class="brand-icon"><img src="jay-durga-logo(1).png" alt="Jay Durga Logo" class="nav-logo"></span>
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                <li class="nav-item"><a href="index.html#custom" class="nav-link">Custom Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="menu-trigger" id="menuTrigger" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-links">
+            <a href="index.html#home" class="mobile-nav-link">Home</a>
+            <a href="index.html#about" class="mobile-nav-link">About</a>
+            <a href="menu.html" class="mobile-nav-link">Menu</a>
+            <a href="packages.html" class="mobile-nav-link">Packages</a>
+            <a href="index.html#custom" class="mobile-nav-link">Custom Menu</a>
+            <a href="gallery.html" class="mobile-nav-link active">Gallery</a>
+            <a href="index.html#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- ===== GALLERY HERO ===== -->
+    <header class="gallery-page-hero">
+        <div class="gallery-hero-bg"
+            style="background-image: url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=80');">
+        </div>
+        <div class="gallery-hero-overlay"></div>
+        <div class="container gallery-hero-inner">
+            <nav class="breadcrumb breadcrumb--hero" aria-label="Breadcrumb">
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <span class="breadcrumb-sep" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+                <span class="breadcrumb-current">Gallery</span>
+            </nav>
+            <div class="gallery-hero-text reveal">
+                <span class="section-tag">आमच्या सेवांचे सुंदर क्षण</span>
+                <h1 class="gallery-hero-title">Our Event Gallery</h1>
+                <div class="section-underline" style="margin: 1.25rem auto 1.5rem;"></div>
+                <p class="gallery-hero-desc">Celebrating weddings, traditions, and grand feasts through premium pure-vegetarian
+                    catering — captured moments of hospitality, flavour, and elegance.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== FULL GALLERY WITH FILTERS ===== -->
+    <section class="section gallery gallery-page-content" id="gallery">
+        <div class="container">
+            <div class="gallery-filter-scroller reveal">
+                <div class="gallery-filters menu-tabs" id="galleryFilters">
+                    <!-- Filter tabs injected by JS -->
+                </div>
+            </div>
+
+            <div id="galleryPageContent">
+                <!-- Section blocks or filtered grid injected by JS -->
+            </div>
+
+            <div class="gallery-page-actions reveal">
+                <a href="index.html#contact" class="btn btn-gold">
+                    Book Your Event <i class="fas fa-calendar-check"></i>
+                </a>
+                <a href="menu.html" class="btn btn-secondary">
+                    View Our Menu <i class="fas fa-utensils"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-modal-content">
+            <span class="lightbox-modal-close" id="lightboxClose">&times;</span>
+            <img src="" alt="" class="lightbox-modal-img" id="lightboxImg">
+            <button class="lightbox-modal-nav lightbox-nav-prev" id="lightboxPrev" aria-label="Previous image">&lt;</button>
+            <button class="lightbox-modal-nav lightbox-nav-next" id="lightboxNext" aria-label="Next image">&gt;</button>
+            <div class="lightbox-modal-caption">
+                <h4 class="lightbox-caption-title" id="lightboxCaptionTitle">Image Title</h4>
+                <p class="lightbox-caption-cat" id="lightboxCaptionCat">Category</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="section cta-banner-wrapper">
+        <div class="container cta-banner-inner reveal">
+            <h2 class="cta-title">Ready to Create Beautiful Memories?</h2>
+            <p class="cta-desc">Let Jay Durga Caterers bring royal Maharashtrian hospitality and pure-veg excellence to your
+                next celebration.</p>
+            <a href="index.html#contact" class="btn btn-gold">Request Consultation <i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer class="premium-footer">
+        <div class="container">
+            <div class="footer-top-row">
+                <div class="footer-brand-box">
+                    <h2 class="footer-brand-text">JAY DURGA<br><span>Caterers</span></h2>
+                    <p class="footer-brand-desc">Serving premium culinary experiences, authentic regional delicacies,
+                        and luxury event management across Kolhapur.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item"><a href="index.html#home">Home</a></li>
+                        <li class="footer-link-item"><a href="index.html#about">About Us</a></li>
+                        <li class="footer-link-item"><a href="menu.html">Our Menu</a></li>
+                        <li class="footer-link-item"><a href="gallery.html">Event Gallery</a></li>
+                        <li class="footer-link-item"><a href="index.html#packages">Catering Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Core Cuisines</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item">Traditional Maharashtrian</li>
+                        <li class="footer-link-item">Royal Punjabi</li>
+                        <li class="footer-link-item">Gourmet Italian & Pasta</li>
+                        <li class="footer-link-item">Indo-Chinese Fusions</li>
+                        <li class="footer-link-item">South Indian Specialties</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Office Hours</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item"><i class="far fa-clock"></i> Mon - Sun: <br>9:30 AM - 2:00 PM<br>
+                            4:00 PM - 9:00 PM</li>
+                        <li class="footer-link-item"><i class="fas fa-headset"></i> 24/7 Phone Consultation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 Jay Durga Caterers. All rights reserved.</p>
+                <p class="footer-credits">Developed with ❤️ for <a href="index.html#home">Jay Durga Caterers</a></p>
+                <p class="footer-credits">
+                    Website Designed & Managed by
+                    <a href="https://vebly1.github.io/veblyweb/" target="_blank">
+                        Vebly
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-widget-wrapper">
+        <a href="https://wa.me/919860920739?text=Hello%20Jay%20Durga%20Caterers!%20I%20would%20like%20to%20inquire%20about%20your%20catering%20services%20for%20an%20upcoming%20event."
+            target="_blank" class="float-btn btn-float-wa" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <button class="float-btn btn-float-totop" id="scrollToTop" aria-label="Scroll to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

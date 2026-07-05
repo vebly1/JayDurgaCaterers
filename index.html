@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===== SEO & METADATA ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jay Durga Caterers - Premium catering services in Kolhapur, Maharashtra. Exquisite culinary creations, traditional Maharashtrian feasts, and international cuisines for weddings, corporate events, and parties.">
+    <meta name="keywords"
+        content="Jay Durga Caterers, catering Kolhapur, wedding caterers, Maharashtrian catering, best food caterers Kolhapur, custom catering menu">
+    <meta name="author" content="Jay Durga Caterers">
+    <title>Jay Durga Caterers | Premium & Elegant Catering Services in Kolhapur</title>
+
+    <!-- ===== FONTS & ICONS CDN ===== -->
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="home-page">
+
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <video
+                id="preloaderVideo"
+                autoplay
+                muted
+                playsinline
+                preload="auto">
+                <source src="Preloader2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- Rest of your website starts here -->
+
+    <!-- ===== HEADER & STICKY NAVIGATION ===== -->
+    <nav class="header-nav" id="mainNavbar">
+        <div class="container nav-flex">
+            <!-- Brand Identity -->
+            <a href="index.html#home" class="brand">
+                <span class="brand-icon"><img src="jay-durga-logo(1).png" alt="Jay Durga Logo" class="nav-logo"></span>
+            </a>
+
+            <!-- Desktop Links -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                <li class="nav-item"><a href="index.html#custom" class="nav-link">Custom Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="menu-trigger" id="menuTrigger" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-links">
+            <a href="index.html#home" class="mobile-nav-link active">Home</a>
+            <a href="index.html#about" class="mobile-nav-link">About</a>
+            <a href="menu.html" class="mobile-nav-link">Menu</a>
+            <a href="packages.html" class="mobile-nav-link">Packages</a>
+            <a href="index.html#custom" class="mobile-nav-link">Custom Menu</a>
+            <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+            <a href="index.html#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+
+    <!-- ===== HERO SECTION (SPLIT LAYOUT + ORBITAL SHOWCASE) ===== -->
+    <header class="hero-wrapper hero-wrapper--split" id="home">
+        <div class="hero-split-bg" aria-hidden="true"></div>
+        
+        <div class="container hero-split">
+            <div class="hero-split__content hero-intro">
+                <div class="shree-symbol">❖ ॥ श्री ॥ ❖</div>
+                <div class="hero-welcome-badge hero-intro-item">
+                    <i class="fas fa-award"></i> स्वाद कोल्हापूरचा, परंपरा आदरातिथ्याची!
+                </div>
+                <h1 class="hero-title-main hero-intro-item">चवीची परंपरा <br><span>सेवेत उत्कृष्टता</span></h1>
+                <p class="hero-tagline hero-intro-item"><strong>अस्सल कोल्हापुरी आणि शाही स्वाद — 100% शुद्ध शाकाहारी!</strong> Premium pure-veg catering, exquisite Indian
+                    and international menu designs, and luxury event presentations customized for your dream wedding,
+                    corporate gala, or intimate family gathering in Kolhapur.</p>
+                <div class="hero-ctas hero-intro-item">
+                    <a href="menu.html" class="btn btn-gold">View Interactive Menu <i class="fas fa-utensils"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us <i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-split__visual">
+                <div class="hero-arc-bands" id="heroShowcaseOrbit" role="img"
+                    aria-label="Premium rotating food bands — Jay Durga Caterers">
+                    <!-- Orbital image bands injected by script.js -->
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-scroll-hint">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-mouse">
+                <span class="scroll-indicator-wheel"></span>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ===== ABOUT US SECTION (WITH DUAL IMAGE OVERLAPS & STATS) ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- Dual Image Overlay Graphics -->
+                <div class="about-graphics reveal-left">
+                    <div class="about-img-frame img-main">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80"
+                            alt="Pure vegetarian catering spread">
+                    </div>
+                    <div class="about-img-frame img-sub">
+                        <img src="veg dish.jpeg" alt="Traditional Dessert Spread">
+                    </div>
+                    <div class="about-badge-gold">
+                        <span>25+</span>
+                        <small>Years Of<br>Excellence</small>
+                    </div>
+                </div>
+
+                <!-- Textual Content & Stats -->
+                <div class="about-info reveal-right">
+                    <span class="section-tag">आमच्याबद्दल | About Jay Durga</span>
+                    <h2 class="section-title" style="text-align: left;">Serving Happiness & Pure Culinary Tradition</h2>
+                    <div class="section-underline" style="margin: 0 0 2rem 0;"></div>
+
+                    <p class="about-info-text">Jay Durga Caterers stands as a premier catering service based in
+                        Kolhapur. Founded on the principle of culinary perfection, we blend age-old traditions with
+                        modern luxury. We cater to major occasions including grand weddings, corporate lunches, cultural
+                        celebrations, and custom parties.</p>
+
+                    <div class="about-accent-quote">
+                        "नाते आपुलकीचे, चव परंपरेची... We believe that catering is not just about serving food; it is an
+                        art of presenting pure love, fresh flavors, and creating lasting memories."
+                    </div>
+
+                    <!-- Counter Metrics -->
+                    <div class="counter-board">
+                        <div class="counter-card">
+                            <div class="counter-num">1200+</div>
+                            <div class="counter-label">Events Served</div>
+                        </div>
+                        <div class="counter-card">
+                            <div class="counter-num">180+</div>
+                            <div class="counter-label">Expert Dishes</div>
+                        </div>
+                        <div class="counter-card">
+                            <div class="counter-num">99%</div>
+                            <div class="counter-label">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FEATURED MENU PREVIEW (FULL MENU ON menu.html) ===== -->
+    <section class="section menu featured-menu" id="menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">शाही आस्वाद | Our Culinary Treasures</span>
+                <h2 class="section-title">Signature Dishes</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">A taste of our pure-vegetarian royal spread (शुद्ध शाकाहारी शाही बेत). Explore
+                    handpicked favourites — hover over each card to preview our presentations.</p>
+            </div>
+
+            <div class="menu-grid featured-menu-grid reveal" id="featuredMenuGrid">
+                <!-- Javascript injects 5 featured dish cards (1 large + 4 small) -->
+            </div>
+
+            <div class="menu-cta-wrap reveal">
+                <a href="menu.html" class="btn btn-gold btn-menu-full">
+                    View Full Menu <i class="fas fa-utensils"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FEATURED PACKAGES PREVIEW (FULL LIST ON packages.html) ===== -->
+    <section class="section packages featured-packages" id="packages">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">शाही भोजन बेत | Predefined Menus</span>
+                <h2 class="section-title">Catering Packages</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">Curated शाही थाळी packages for weddings, traditions, and celebrations — expand
+                    each card for details, then import to your custom menu in one click.</p>
+            </div>
+
+            <div class="packages-grid featured-packages-grid reveal" id="featuredPackagesGrid">
+                <!-- Javascript injects Menu 1, Menu 2, Menu 3 -->
+            </div>
+
+            <div class="packages-cta-wrap reveal">
+                <a href="packages.html" class="btn btn-gold btn-packages-full">
+                    Explore All Packages <i class="fas fa-box-open"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CUSTOMIZABLE MENU BUILDER ===== -->
+    <section class="section custom-menu" id="custom">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">स्वतःचा बेत बनवा | Catering Customization</span>
+                <h2 class="section-title">Design Your Custom Menu</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">Select dishes from different cuisines below. Create your personalized event menu
+                    combination (तुमच्या आवडीचा बेत), and click inquire to send it directly to our chefs!</p>
+            </div>
+
+            <div class="custom-builder-container">
+                <!-- Checklist Panel Grouped by Cuisines -->
+                <div class="custom-builder-categories" id="customCategories">
+                    <!-- Javascript injects category group cards dynamically here -->
+                </div>
+
+                <!-- Sticky Summary Sidebar -->
+                <div class="builder-sidebar-widget">
+                    <h3 class="widget-title">
+                        <i class="fas fa-concierge-bell"></i> Selected Menu (तुमचा बेत)
+                    </h3>
+
+                    <div class="widget-summary-box">
+                        <span class="summary-metric-label">Total Items:</span>
+                        <span class="summary-metric-num" id="itemCount">0</span>
+                    </div>
+
+                    <!-- Selected items list -->
+                    <div class="widget-list-scroll" id="summaryItems">
+                        <!-- Checked items list here -->
+                    </div>
+
+                    <!-- Builder Buttons -->
+                    <div class="widget-actions">
+                        <button class="btn btn-gold" onclick="inquireCustomMenu()">
+                            Inquire with this Menu <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <span class="widget-clear-btn" id="resetBtn">Clear List (साफ करा)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== GALLERY PREVIEW (FULL GALLERY ON gallery.html) ===== -->
+    <section class="section gallery featured-gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Visual Showcase | दृश्य प्रदर्शन</span>
+                <h2 class="section-title">Our Event Gallery</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">A glimpse of our exquisite arrangements, fine buffet setups, table décor, and
+                    fresh food presentations from weddings and celebrations across Kolhapur.</p>
+            </div>
+
+            <div class="gallery-grid featured-gallery-grid reveal" id="featuredGalleryGrid">
+                <!-- Javascript injects 8 featured gallery images -->
+            </div>
+
+            <div class="gallery-cta-wrap reveal">
+                <a href="gallery.html" class="btn btn-gold btn-gallery-full">
+                    View Full Gallery <i class="fas fa-images"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal Overlay -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-modal-content">
+            <span class="lightbox-modal-close" id="lightboxClose">&times;</span>
+            <img src="" alt="" class="lightbox-modal-img" id="lightboxImg">
+
+            <button class="lightbox-modal-nav lightbox-nav-prev" id="lightboxPrev">&lt;</button>
+            <button class="lightbox-modal-nav lightbox-nav-next" id="lightboxNext">&gt;</button>
+
+            <div class="lightbox-modal-caption">
+                <h4 class="lightbox-caption-title" id="lightboxCaptionTitle">Image Title</h4>
+                <p class="lightbox-caption-cat" id="lightboxCaptionCat">Category</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ===== TESTIMONIALS & CUSTOMER REVIEWS ===== -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">We measure our success by the satisfaction of our clients and the smiles of
+                    their guests.</p>
+            </div>
+
+            <!-- Testimonial Slider -->
+            <div class="testimonials-carousel reveal">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-quote-icon">“</div>
+                    <p class="testimonial-quote-text">The food at our wedding was phenomenal! Our guests are still
+                        talking about the Loni Dosa counters and the Paneer Tikka Masala. The service was extremely
+                        professional, and the decoration was top-notch. Highly recommended!</p>
+                    <span class="testimonial-author-name">Anand & Prachi Kulkarni</span>
+                    <span class="testimonial-author-desc">Wedding Client, Kolhapur</span>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-quote-icon">“</div>
+                    <p class="testimonial-quote-text">Jay Durga Caterers handled our corporate silver jubilee launch.
+                        The buffet layout was absolutely elegant, the food was hot, fresh and served punctually. Their
+                        custom menu feature made selection so easy!</p>
+                    <span class="testimonial-author-name">Milind Patil</span>
+                    <span class="testimonial-author-desc">Event Manager, HDFC Bank</span>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-quote-icon">“</div>
+                    <p class="testimonial-quote-text">Authentic Maharashtrian feast at its best! The Puran Poli served
+                        with pure ghee and the spicy Akkha Masoor was exactly what we wanted for our house warming
+                        ceremony. Incredible hospitality!</p>
+                    <span class="testimonial-author-name">Sunita Deshmukh</span>
+                    <span class="testimonial-author-desc">Private Party Client</span>
+                </div>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="testimonial-nav-dots" id="testimonialDots">
+                <!-- Dots generated dynamically -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT US PAGE WITH FORM, MAP, DETAILS ===== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">संपर्क साधा | Get In Touch</span>
+                <h2 class="section-title">Schedule A Consultation</h2>
+                <div class="section-underline"></div>
+                <p class="section-desc">Ready to craft a delicious menu (शाही जेवणाचा बेत) for your special occasion?
+                    Fill out the form or reach us via phone or WhatsApp directly.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Details -->
+                <div class="contact-info-panel reveal-left">
+                    <div class="contact-info-group">
+                        <div class="contact-info-icon-wrapper">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-text-wrapper">
+                            <h3>Call Us Direct</h3>
+                            <p>+91 8329265646</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-group">
+                        <div class="contact-info-icon-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info-text-wrapper">
+                            <h3>Our Kitchen & Office</h3>
+                            <p>682 E, Shahupuri 3rd Lane,<br>Kolhapur, Maharashtra - 416001</p>
+                        </div>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="contact-social-icons">
+                        <a href="#" class="contact-social-btn" aria-label="Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="contact-social-btn" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="contact-social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div class="contact-form-card reveal-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="contact-form-grid">
+                            <div class="form-field-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="form-field-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-input"
+                                    placeholder="Your Phone Number" required>
+                            </div>
+                            <div class="form-field-group form-full-row">
+                                <label for="eventType" class="form-label">Event Type</label>
+                                <input type="text" id="eventType" name="eventType" class="form-input"
+                                    placeholder="Wedding, Birthday, Corporate, Private, etc." required>
+                            </div>
+                            <div class="form-field-group form-full-row">
+                                <label for="message" class="form-label">Message Details</label>
+                                <textarea id="message" name="message" class="form-input form-textarea"
+                                    placeholder="Detail your event date, expected guest count, and menu expectations."
+                                    required></textarea>
+                            </div>
+                            <div class="form-field-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="form-input" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary contact-submit-btn">
+                            Submit Inquiry via WhatsApp <i class="fab fa-whatsapp"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Responsive Google Maps Embed -->
+            <div class="map-container reveal">
+                <!-- Centered on Shahupuri, Kolhapur location -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2340.232769838674!2d74.23672560971177!3d16.700881136586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1011953d508c7%3A0x71c40700c9611cb8!2sJay%20durga%20caterers!5e0!3m2!1sen!2sin!4v1779937910622!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CALL TO ACTION FOOTER BANNER ===== -->
+    <section class="section cta-banner-wrapper">
+        <div class="container cta-banner-inner reveal">
+            <h2 class="cta-title">Planning A Grand Event?</h2>
+            <p class="cta-desc">Let us bring flavor and luxury hospitality to your guests. Book a complimentary food
+                tasting and consultation session with our head chef today.</p>
+            <a href="#contact" class="btn btn-gold">Request Consultation <i class="fas fa-calendar-check"></i></a>
+        </div>
+    </section>
+
+
+    <!-- ===== PREMIUM FOOD-INDUSTRY FOOTER ===== -->
+    <footer class="premium-footer">
+        <div class="container">
+            <div class="footer-top-row">
+                <!-- Col 1: Brand -->
+                <div class="footer-brand-box">
+                    <h2 class="footer-brand-text">JAY DURGA<br><span>Caterers</span></h2>
+                    <p class="footer-brand-desc">Serving premium culinary experiences, authentic regional delicacies,
+                        and luxury event management across Kolhapur. Elevating events with delicious memories.</p>
+                </div>
+
+                <!-- Col 2: Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item"><a href="index.html#home">Home</a></li>
+                        <li class="footer-link-item"><a href="index.html#about">About Us</a></li>
+                        <li class="footer-link-item"><a href="menu.html">Our Menu</a></li>
+                        <li class="footer-link-item"><a href="packages.html">Catering Packages</a></li>
+                        <li class="footer-link-item"><a href="index.html#custom">Custom Menu Builder</a></li>
+                        <li class="footer-link-item"><a href="gallery.html">Event Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Cuisines -->
+                <div class="footer-column">
+                    <h3>Core Cuisines</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item">Traditional Maharashtrian</li>
+                        <li class="footer-link-item">Royal Punjabi</li>
+                        <li class="footer-link-item">Gourmet Italian & Pasta</li>
+                        <li class="footer-link-item">Indo-Chinese Fusions</li>
+                        <li class="footer-link-item">South Indian Specialties</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Operations -->
+                <div class="footer-column">
+                    <h3>Office Hours</h3>
+                    <ul class="footer-links-list">
+                        <li class="footer-link-item"><i class="far fa-clock"></i> Mon - Sun: <br>9:30 AM - 2:00 PM<br> 4:00 PM - 9:00 PM<li>
+                        <li class="footer-link-item"><i class="fas fa-headset"></i> 24/7 Phone Consultation</li>
+                        <li class="footer-link-item"><i class="fas fa-utensils"></i> Kitchen Tasting: By Appointment
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom bar -->
+            <div class="footer-bottom-bar">
+                <p>&copy; 2026 Jay Durga Caterers. All rights reserved.</p>
+                <p class="footer-credits">Developed with ❤️ for <a href="index.html#home">Jay Durga Caterers</a></p>
+                <p class="footer-credits">
+                    Website Designed & Managed by
+                    <a href="https://vebly1.github.io/veblyweb/" target="_blank">
+                        Vebly
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ===== FLOATING WIDGET ACTIONS ===== -->
+    <div class="floating-widget-wrapper">
+        <!-- Floating WhatsApp chat -->
+        <a href="https://wa.me/918329265646?text=Hello%20Jay%20Durga%20Caterers!%20I%20would%20like%20to%20inquire%20about%20your%20catering%20services%20for%20an%20upcoming%20event."
+            target="_blank" class="float-btn btn-float-wa" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <!-- Scroll To Top -->
+        <button class="float-btn btn-float-totop" id="scrollToTop" aria-label="Scroll to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="script.js"></script><script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const preloader = document.getElementById('preloader');
+            const video = document.getElementById('preloaderVideo');
+        
+            video.addEventListener('ended', () => {
+                preloader.classList.add('fade-out');
+        
+                setTimeout(() => {
+                    preloader.remove();
+                }, 800);
+            });
+        });
+        </script>
+
+</body>
+
+</html>
