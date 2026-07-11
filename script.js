@@ -915,7 +915,7 @@ const dishSpecificImages = {
 
 
     "Loni Dosa": "Menu images/Loni dosa.jpeg",
-    "Thatte Idli": "Menu images/Thatte Idli.jpeg",
+    "Thatte Idli": "Menu images/Thatte idli.jpeg",
     "Tomato Uttappa": "Menu images/Tomato uttappa.jpeg",
     "Onion Uttappa": "Menu images/Onion uttappa.jpeg",
     "Rava Dosa": "Menu images/Rava dosa.jpeg",
