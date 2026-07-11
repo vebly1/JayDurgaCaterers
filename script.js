@@ -826,7 +826,7 @@ const dishSpecificImages = {
     "Veg Kabab": "Menu images/Veg Kebab.webp",
     "Vegetable Cutlet": "Menu images/vegetable katlet.jpeg",
     "Cheese Patties": "Menu images/Cheese Patties.jpeg",
-    "American Basket": "Menu images/american basket.jpeg",
+    "American Basket": "Menu images/American Basket.jpeg",
     "Sweetcorn Patties": "Menu images/Sweetcorn Patties.jpeg",
     "Mini Bombay Vada": "Menu images/Mini bombay Vada.jpeg",
     "Besan Vadi": "Menu images/Besan Vadi.jpeg",
